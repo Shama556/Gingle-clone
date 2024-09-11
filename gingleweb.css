@@ -1,0 +1,1002 @@
+ *{
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+        }
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    /* justify-content: center; */
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgb(179, 229, 239), rgb(145, 212, 234),   rgb(74, 161, 254) );
+    z-index: 3;
+}
+
+
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+    list-style-type: none;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+ nav img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+ }
+
+ .box-li{
+    position: relative;
+ }
+
+ .drop-down{
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    background: linear-gradient(rgb(165, 208, 217), rgb(131, 224, 255),   rgb(56, 138, 226) );
+    box-shadow: 2px 2px 5px rgb(217, 212, 212);
+ }
+
+ .drop-down-li{
+    padding: 7px;
+    margin: 3px;
+    background-color: rgba(207, 233, 255, 0.846);
+    /* background: linear-gradient(rgb(159, 220, 232), rgb(114, 188, 212),   rgb(59, 133, 213) ); */
+    border-radius: 5px;
+ }
+
+ .drop-down-li a:hover{
+    /* background-color: rgba(126, 198, 250, 0.57); */
+    border-left: 3px double rgb(254, 254, 0);
+ }
+
+
+.box-li:hover  .drop-down{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+    .first-sec{
+        text-align: center;
+        background-color: rgb(250, 243, 234);
+        height: 140px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    h1{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-transform: uppercase;
+    }
+
+    .para-1{
+        font-size: 23px;
+    }
+
+    .contact{
+        color: rgb(255, 255, 255);
+        background-color: rgb(151, 2, 2) ;
+        border: none;
+        font-weight: 600;
+        font-size: 18px;
+        border-radius: 10px;
+        font-size: medium;
+        padding: 10px;
+        border: 2px solid rgb(151, 2, 2);
+        transition: 0.3s ease-in-out;
+    }
+
+    .contact:hover{
+        color:rgb(151, 2, 2) ;
+        background-color: whitesmoke;
+    }
+
+
+
+
+    .home-img{
+        position: relative;
+    }
+
+    .heading-home{
+        position: absolute;
+        top: 400px ;
+        left: 200px;
+        font-size: 60px;
+        color: aliceblue;
+        font-weight: 600;
+    }
+
+    .heading-home-1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .home-btn{
+        margin: 0 auto;
+        margin-top: 10px;
+        background-color: navy;
+        color: aliceblue;
+        font-size: 20px;
+        border: 2px solid navy;
+        padding: 8px;
+        border-radius: 20px;
+        display: flex;
+        /* justify-content: center; */
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .home-btn:hover{
+        color: navy;
+        background-color: aliceblue;
+    }
+
+
+
+
+
+
+
+
+
+
+        /* .ulll{
+            display: flex;
+            list-style-type: none;
+            gap: 60px;
+            background-color: #4E98DF;
+            justify-content: center;
+            padding: 10px;
+            align-items: center;
+        } */
+
+        .box-li a{
+            text-decoration: none;
+            color: rgb(4, 92, 168);
+            font-size: 18px;
+            display: flex;
+            
+        }
+
+
+
+        .box-li a:hover{
+            color: black;
+        }
+
+        
+
+        .imgg{
+            position: absolute;
+            padding-right: 300px;
+            padding-left: 20px;
+        }
+
+
+        /* .btn{
+            background-color: rgb(190, 18, 18);
+            color: rgb(223, 123, 123);
+            border: none;
+            border-radius: 5px;
+            padding: 7px;
+            margin-left: 155px;
+            font-size: medium;  
+            font-weight: 600;
+        }
+
+        .btn:hover{
+             color:rgb(255, 188, 188) ;
+             box-shadow: 1px 2px 5px rgba(170, 158, 158, 0.76);
+
+        } */
+
+
+
+
+
+
+
+        .card{
+            display: flex;
+            gap: 70px;
+            justify-content: center;
+            /* margin-bottom: 40px; */
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card-1{
+            /* background-color: rgb(155, 214, 241); */
+            border: 1px solid rgb(47, 43, 43);
+            padding: 20px;
+            border-radius: 6px;
+            width: 300px;
+            min-height: 300px;
+            flex-wrap: wrap;
+            overflow-x: hidden;
+            box-shadow: 3px 3px 10px gray;
+        }
+
+        /* .card img{
+            height: 80%;
+            object-fit: cover;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+
+        } */
+
+        h3{
+            text-align: center;
+            color: rgb(7, 175, 241);
+            font-size: 22px;
+        }
+
+        .fa-home{
+            color: rgb(59, 150, 64);
+            display: flex;
+        }
+
+        .fa-bed{
+            color: rgb(59, 150, 64);
+            display: flex;
+        }
+
+        .fa-plane{
+            color: rgb(59, 150, 64);
+            display: flex;
+        }
+        
+        .i{
+            display: flex;
+            justify-content: center;
+        }
+
+        .paraa-1{
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
+
+        .paraa-1-1{
+            display: flex;
+            justify-content: center;
+        }
+
+        .c-btn{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        .c-btn-1{
+            color: aliceblue;
+            background-color: navy;
+            font-size: 15px;
+            border: 3px solid navy;
+            border-radius: 30%;
+            padding: 3px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .c-btn-1:hover{
+            background-color: aliceblue;
+            color: navy;
+        }
+
+        .hyyyy{
+            font-weight: 600;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .sect-img{
+            display: flex;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .sec-img1 img{
+            height: 705px;
+            width: 700px;
+            padding: 10px;
+        }
+
+        .sec-img-2-1 img{
+            width: 695px;
+            height: 350px;
+            padding: 3px;
+        }
+
+        .sec-img-2-2 img{
+            width: 695px;
+            height: 350px;
+            padding: 3px;
+
+        }
+
+        .destination{
+            display: flex;
+            justify-content: center;
+        }
+
+        .all{
+            background-color: navy;
+            color: whitesmoke;
+            border-radius: 10px;
+            padding: 5px;
+            justify-content: center;
+            border: 2px solid navy ;
+            font-weight: 600;
+            padding: 10px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .all:hover{
+            background-color: whitesmoke;
+            color: navy;
+        }
+
+
+
+
+
+        .sec-0{
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sec-1-img{
+            width: 600px;
+            padding: 10px;
+        }
+        
+        .sec-2-img{
+            width: 400px;
+            padding: 10px;
+        }
+
+        .sec-3-img{
+            width: 400px;
+            padding: 10px;
+        }
+
+        .sec-1txt{
+            padding: 10px;
+            /* background-color: blanchedalmond; */
+        }
+
+        .sec-2txt{
+            padding: 10px;
+            height: 250px;
+            /* background-color: blanchedalmond; */
+        }
+
+        .sec-3txt{
+            padding: 10px;
+            height: 250px;
+            /* background-color: blanchedalmond; */
+        }
+
+        .sec-h2-1{
+            color: rgb(72, 74, 247);
+            text-align: center;
+            margin-bottom: 10px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .sec-h2-1:hover{
+            color: rgb(40, 40, 148);
+            text-decoration: underline;
+        }
+
+        .sec-h2-2{
+            color: rgb(72, 74, 247);
+            margin-bottom: 10px;
+            transition: 0.3s ease-in-out;
+        }
+    
+        .sec-h2-2:hover{
+            color: rgb(40, 40, 148);
+            text-decoration: underline;
+            
+        }
+
+        .sec-h2-3{
+            color: rgb(72, 74, 247);
+            margin-bottom: 10px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .sec-h2-3:hover{
+            color: rgb(40, 40, 148);
+            text-decoration: underline;
+        }
+
+        .para1{
+            color: rgb(44, 42, 42);
+            text-transform: capitalize;
+            line-height: 25px;
+            font-size: 18px;
+        }
+
+        .para2{
+            color: rgb(44, 42, 42);
+            text-transform: capitalize;
+            line-height: 25px;
+            font-size: 18px;
+        }
+
+        .para3{
+            color: rgb(44, 42, 42);
+            text-transform: capitalize;
+            line-height: 25px;
+            font-size: 18px;
+        }
+
+
+
+
+
+
+
+
+
+
+        .card-main{
+            padding: 20px;
+            margin: 30px;
+        }
+       .card-main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+       }
+
+       .card-txt{
+        text-align: center;
+        color: whitesmoke;
+        background: linear-gradient( rgb(139, 62, 139), rgb(87, 87, 182));
+        padding: 15px;
+       }
+
+       .card-txt:hover{
+        color: rgb(233, 239, 112);
+        text-decoration: underline;
+       }
+
+       .card-m1{
+        padding: 20px;
+        background-color: rgb(198, 223, 245);
+        box-shadow: 10px 10px 15px rgba(193, 190, 190, 0.632);
+       }
+
+
+
+
+       .re-card{
+        /* background-image: url(Sandeep\ koli.webp);   */
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        position: relative;
+        box-shadow: 3px 3px 15px gray;
+        margin-bottom: 20px;
+       }
+
+       .img-text{
+        background-color: rgba(0, 0, 0, 0.471);
+        /* opacity: 0.6; */
+        min-height: 100px;
+        width: 100%;
+        position: absolute;
+        top: 300px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+       }
+
+       .reveiw{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin: 20px;
+       }
+
+       .name{
+        font-size: medium;
+        padding: 10px;
+        
+       }
+
+       .star{
+        /* width: 100%; */
+        /* height: 20vh; */
+        /* background-color: red; */
+        color: rgba(240, 240, 45, 0.802);
+        font-size: 5px;
+        /* margin-top: 3px; */
+        position: absolute;
+        top: 360px;
+        right: 90px;
+        gap: 120px;
+        /* justify-content: center; */
+       }
+
+       .star i{
+        padding-left: 9px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+        .foot-class{
+            display: flex;
+            gap: 100px;
+            /* background-color: aliceblue; */
+            background: linear-gradient(rgb(90, 90, 181) , rgb(139, 191, 208) , rgb(201, 230, 236));
+            justify-content: center;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .foot-ul{
+            list-style-type: none;
+
+        }
+
+        .foot-li a{
+            text-decoration: none;
+            color: white;
+            transition: 0.3s ease-in-out;
+        }
+
+        .foot-li a:hover{
+                color: rgb(255, 233, 64);
+        }
+
+        .strong{
+           color: rgb(255, 255, 255);
+           margin-bottom: 10px;
+           /* font-weight: 700; */
+        }
+
+        .foot-li{
+            padding-bottom: 5px;
+        }
+
+
+
+
+        /* ----------------------------------------ABOUT US--------------------------------------------- */
+
+
+
+        .h1-about{
+            background-image: url(Group-Learning-Tours-1024x587.webp);
+            width: 100%;
+            height: 600px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .about-home h1 span{
+            display: block;
+            flex-wrap: wrap;
+            animation: contact;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes contact {
+            0%{
+                 transform: translateX(10px);
+                 color: rgb(255, 255, 255);
+            }
+
+            100%{
+                transform: translateX(190px);
+                color: rgb(33, 33, 160);
+            }
+        }
+
+
+
+
+
+
+
+
+
+        .heading-body{
+            font-size: 40px;
+            color: black;
+            text-align: center;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .span-red{
+            color: red;
+        }
+
+        .span-black{
+            color: black;
+        }
+
+        .body-part-1{
+            font-size: 22px;
+            line-height: 27px;
+            text-align: start;
+        }
+
+
+        .checkbox{
+            display: flex;
+            margin: 2vh auto;
+            gap: 20px;
+            width: 80%;
+            justify-content: space-around;
+            /* margin-left: 150px; */
+        }
+
+        .about-body{
+            /* margin: 36px 176px 26px 176px; */
+            /* background-color: aliceblue; */
+            width: 90%;
+            margin: 10vh auto;
+            /* text-align: center; */
+        }
+
+  
+
+        .body-part-2{
+            /* margin: 20px  176px 50px 176px ; */
+            width: 80%;
+            padding-left: 230px;
+            /* background-color: antiquewhite; */
+        }
+
+        .h2-about{
+            font-weight: 600;
+            font-size: 28px;
+            margin: 10px;
+            text-align: center;
+            /* margin-bottom: 20px; */
+        }
+
+        .check-p{
+             /* padding-bottom: 20px; */
+             line-height: 45px;
+             font-size: 15px;
+        }
+
+        .para-about{
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+
+        /* ---------------------------------------CONTACT US----------------------------------------- */
+
+        .h1-contact{
+            background-image: url(Group-Learning-Tours-1024x587.webp);
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-wrap: wrap; */
+            color: aliceblue;
+            font-size: 50px;
+        }
+
+      
+
+        
+        
+    
+
+        
+        /* .contact-detail{
+            border: 4px solid gray;
+            background-color: aqua;
+        } */
+       
+        /* .call-icon{
+            background-color: aquamarine;
+            display: flex;
+            justify-items: center;
+
+        } */
+        .contact-box{
+            width: 100%;
+            display: flex;    
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .contact-detail{
+            height: 200px;
+            width: 300px;
+            border: 1px solid rgb(53, 50, 50);
+            margin: 10px;
+            transition: 0.3s ease-in-out;
+        }
+        .contact-detail:hover{
+            border: 2px solid rgb(53, 50, 50);
+        }
+        .contact-icon{
+            text-align: center;
+            margin: 20px 0 10px 0;
+        }
+ 
+
+        .contact-text{
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .contact-text-1{
+            font-size: 17px;
+            /* line-height: 21px; */
+            transition: 0.3s ease-in-out;
+        }
+
+        .contact-text-1:hover{
+            font-size: 19px;
+        }
+
+        .detail{
+            text-align: center;
+        }
+
+        .contact-tx-1{
+            background-color: aliceblue;
+            text-align: center;
+            width: 100%;
+            height: 80px;
+            padding-top: 30px;
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+
+        .query{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        form{
+            text-align: center;
+            margin: 40px;
+            width: 600px;
+            display: block;
+            flex-wrap: wrap;
+        }
+
+        .query-box{
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .query-box-1{
+            width: 100%;
+            /* margin-top: 3px; */
+            /* height: 200px; */
+        }
+
+        input{
+            outline: none;
+            padding: 5px;
+            line-height: 30px;
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .input-btn-1{
+            width: 190px;
+            height: 43px;
+            font-size: 21px;
+            padding: 8px;
+            background-color: rgb(6, 58, 103);
+            border: 3px solid rgb(6, 58, 103) ;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            text-align: center;
+            border-radius: 30px;
+            transition: 0.3s ease-in-out;
+            /* transition: cubic-bezier(0.445, 0.05, 0.55, 0.95); */
+        }
+
+        /* .input-btn{
+            display: flex;
+            justify-content: center;
+        } */
+
+        .input-btn-1:hover{
+            color: rgb(6, 58, 103);
+            background-color: rgb(255, 255, 255) ;
+            border: 3px solid rgb(6, 58, 103);
+        }
+
+        .fa-phone-square{
+            color: rgb(91, 188, 156);
+        }
+
+        .fa-phone-square:hover{
+            color: rgb(44, 137, 106);
+        }
+
+        .fa-envelope{
+            color: rgb(91, 188, 156);
+        }
+        .fa-envelope:hover{
+            color: rgb(44, 137, 106);
+        }
+
+        .fa-map-marker{ 
+            color: rgb(91, 188, 156);
+        }
+
+        .fa-map-marker:hover{
+            color: rgb(44, 137, 106);
+        }
+
+        iframe{
+            margin-bottom: 40px;
+        }
+
+
+        /* ------------------------------------------------------------------------------------------- */
+
+        .h1-north{
+            background-image: url(photo-1564329895729-c5bbcd512d7b.webp);
+            image-resolution: 1040;
+            width: 100%;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .north-heading{
+            width: 70%;
+            text-align: center;
+            background-color: antiquewhite;
+            font-size: 20px;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding-bottom: 18px;
+        }
+
+        .h1-north{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            color: aliceblue;
+        }
+
+        .north-h1{
+            font-size: 28px;
+            font-weight: 600;
+            padding-top: 30px;
+        }
+
+        .south-home{
+            background-image: url(photo-1476514525535-07fb3b4ae5f1.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 600px;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+
+        .west-home{
+            background-image: url(photo-1512343879784-a960bf40e7f2.webp);
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+
+        .east-home{
+            background-image: url(photo-1611704526041-5931d84f7cb6.webp);
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .h1-thailand{
+            background-image: url(Group-Learning-Tours-1024x587.webp);
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            color: aliceblue;
+        }
+
+       
