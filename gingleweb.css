@@ -328,6 +328,8 @@ nav ul{
             display: flex;
             margin-top: 20px;
             flex-wrap: wrap;
+          justify-content: center;
+
         }
 
         .sec-img1 img{
@@ -379,6 +381,8 @@ nav ul{
             display: flex;
             padding: 10px;
             flex-wrap: wrap;
+            justify-content: space-around;
+
         }
 
         .sec-1-img{
